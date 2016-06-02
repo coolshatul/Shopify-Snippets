@@ -1,0 +1,35 @@
+{% assign current_url = '' %}
+  {% assign current_url = collection.url | append: product.url %}
+  {% if current_url == '/collections/holiday-lights/products/100-blue-mini-lights-w-green-wire' %}
+  <script type="application/ld+json">
+{
+ "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "Executive Anvil",
+  "image": "http://cdn.shopify.com/s/files/1/0299/7661/products/BIML100-B_ca52d738-3e6c-4fec-b43b-2602d391abdd_large.jpeg?v=1431794789",
+  "description": "24 long - 100 light set 120 Volt UL listed indoor and outdoor use End to End Connectors",
+  "mpn": "100BML",
+  "brand": {
+      "@type": "Thing",
+      "name": "Birddog Distributing Inc."
+  },
+  "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "37"
+  },
+  "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "24.37",
+      "priceValidUntil": "2016-12-31",
+      "itemCondition": "http://schema.org/UsedCondition",
+      "availability": "http://schema.org/InStock",
+      "seller": {
+          "@type": "Organization",
+          "name": "Executive Objects"
+      }
+   }
+}
+</script>
+  {% endif %}

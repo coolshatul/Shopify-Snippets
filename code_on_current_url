@@ -33,3 +33,9 @@
 }
 </script>
   {% endif %}
+  
+  
+  new code :
+{% if handle contains 'hide-from-search' %}
+//code here
+{% endif %}
